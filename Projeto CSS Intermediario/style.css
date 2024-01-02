@@ -1,0 +1,20 @@
+/*
+.conteudo{
+    border: 1px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    /*para realizar toda essa formatação com
+    somnte um comando utilize o padding
+    e use no sentido horario, top, right,
+    bottom e left*/
+    
+    /* o comando margin define a distancia da box
+    para a pagina*/
+    /*MARGIN COLAPSE*/
+    /* a distancia entre as margins sao 
+    definidas pela maior margin*/
+
+    

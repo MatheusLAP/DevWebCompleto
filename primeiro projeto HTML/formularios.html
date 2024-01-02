@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--FORMULARIO DE LOGIN-->
+    <h2>Login</h2>
+    <Form>
+        <!--Caixa de login e senha-->
+        Login:<br>
+        <input type="text" name="Login"><br>
+
+        Senha<br>
+        <input type="password" name="Senha"><br><br>
+        <!--Botão de Login-->
+        <input type="button" value="Logar">
+    </Form>
+
+    <h2>Cadastre-se</h2>
+    <form >
+    Login:<br><br>
+
+    <!--Inputs do tipo RADIO, -->
+    <!--a info NAME determina quem receberá o resultado,
+         nao será possivel assinalar mais de uma altrernativa-->
+    Sexo <br>
+    <input type="radio" name="sexo" value="M"> Masculino <br>
+    <input type="radio" name="sexo" value="F"> Feminino <br>
+    <input type="radio" name="sexo" value="O"> Outro <br> <br>
+
+    <!--Inputs do tipo CheckBOX-->
+    <!--O input do tipo CHECKBOX é o quadrado de ticar o V e permite multipla escolha-->
+    Interesses <br>
+    <input type="checkbox" name="Interesses"> Futebol <br>
+    <input type="checkbox" name="Interesses"> Cursos <br>
+    <input type="checkbox" name="Interesses"> Moda  <br> <br>
+
+    <!--O Select é a aba que disponibiliza varias opcoes-->
+    <!--O name determina a que se refere e o value a qual opcao foi selecionada-->
+    Estado <br>
+    <select name="estado">
+        <option value="sp">SP</option>
+        <option value="mg">MG</option>
+        <option value="rs">RS</option>
+        <option value="pr">PR</option>
+    </select> <br><br>
+
+    Observacoes <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #007fcf;
+        }
+
+        #container {
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            /*Ao definir a posição relative dentro do container, o paragrafo assumira o container
+            como principal e se alinhará a ele*/
+            position: relative;
+        }
+
+        .fixed{
+            /*Posicionamentos FIXOS, se tornam fixos referentes a janela do navegador, como por
+            exemplo, 20px a partir da lateral esquerda !!!QUE ACOMPANHARÁ A ROLAGEM DA TELA!!!*/
+            background-color: #f2f2f2;
+            border: 1px solid red;
+            position: fixed;
+            right: 50px;
+            top: 20px;
+        }
+
+        .absolute{
+            border: 1px solid red;
+            position: absolute;
+            /*Quando se trata de uma posicao absoluta, o elemento indicado como absoluto
+            sai da sua posição e não afeta a posição dos outros elementos da caixa  */
+            /*O posicionamento é definido caso haja um container predefinido, caso
+            contrário será baseado no body do documento*/
+            top: 0px;
+            right: 20px;
+            background-color: #f2f2f2;
+        }
+
+        p{
+            width: 300px;
+        }
+
+        .relative{
+            border: 1px solid red;
+            position: relative;
+            /*Quando se trata de relative, voce indica o espaçamento entre a posicao original 
+            e a desejada, com os comandos top, bottom, left e right*/
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+
+        <p>P1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p class="fixed">P2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nemo dicta maiores, nesciunt totam cumque consequuntur corporis
+            aliquid voluptatem vitae sapiente recusandae accusantium praesentium
+            perferendis debitis repellat sequi. Magnam, voluptatibus corrupti.
+        </p>
+    </div>
+
+</body>
+
+</html>

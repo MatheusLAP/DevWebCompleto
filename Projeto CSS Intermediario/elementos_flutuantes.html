@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="style.css"> 
+    <style>
+    .conteudo{
+        background: red;
+        border: 1px solid gray;
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+    /*Para dar segmento pagina sem a interferencia do float, utilizamos a classe 'clear'
+    deve ser selecioado o mesmo lado da float, e both significa ambos*/
+    /*Elementos flutuantes nao forçam a DIV pai a aumentar de tamanho, isso deve ser
+    alterado na div com a classe CLEAR, caso seja necessário*/
+    .clear{
+        clear: left;
+    }
+    </style>
+</head>
+<body>
+<div>
+    <div class="conteudo">
+        Conteudo 1
+    </div>
+    <div class="conteudo">
+        Conteudo 2
+    </div>
+    <div class="conteudo">
+        Conteudo 3
+    </div>
+
+    <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nisi deleniti dignissimos in odit impedit aspernatur inventore repudiandae cumque suscipit unde, velit autem ipsa repellat officia nulla sunt voluptas exercitationem.</p>
+    
+</body>
+</html>

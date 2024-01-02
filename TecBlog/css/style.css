@@ -1,0 +1,122 @@
+/*Limpando as formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/****Layout****/
+#areaCabecalho{
+    background-color: rgb(0, 0, 243);
+    padding: 15px;
+    text-align: center;
+}
+#areaLogo {
+    padding: 10px;
+
+}
+#areaMenu{
+    padding: 10px 10px 0px 10px;   
+}
+
+#areaPrincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#areaPostagens{
+    width: 660px;
+    float: left;
+    
+}
+#areaLateral{
+    width: 240px;
+    float: right; 
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudoLateral{
+    background:white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#rodape{
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+.postagemLateral{
+    font-size: 0.8em;
+    padding: 10px;
+    border-bottom: 1px dotted #CCC;
+}
+/*Formatacoes menu*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(7, 7, 139);
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#areaCabecalho a:link, #areaCabecalho a:visited {
+    color: white;
+    padding: 10px 70px;
+    text-decoration: none;
+}
+
+#areaCabecalho a:hover {
+    background-color: white;
+    color: rgb(7, 7, 139);
+}
+
+/*Formatacoes em geral*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5;
+}
+h2{
+    color: rgb(7, 7, 139);
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+.branco{
+    color: white;
+}
+.negrito{
+    font-weight: bold;
+}
+.preto{
+    color: black;
+}
+
+.dataPostagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
