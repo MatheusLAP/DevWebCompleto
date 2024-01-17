@@ -1,0 +1,34 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    /*Label é um display inline e utlizamos o block para "Empilhar"*/
+    display: block;
+    /*Transforma a seta do mouse em mão para visualizar a disponibilidade
+    de clicar no elemento*/
+    cursor: pointer;
+}
+
+input{ /*input[type="text"]{*/ /*Colocar entre [] seleciona onde a formatacao
+    será aplicada*/
+    width: 20em;
+}
+textarea{
+    width: 20em;
+    height: 10em;
+}
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+.radio{
+    margin-right: 1em;
+}
